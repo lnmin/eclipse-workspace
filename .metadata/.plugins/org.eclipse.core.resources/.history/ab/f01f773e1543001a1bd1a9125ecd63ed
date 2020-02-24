@@ -1,0 +1,14 @@
+package verify.string;
+
+public class char_charAt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String[] s = new String[] {"老人与海"};
+		System.out.println(s[0].length());
+		System.out.println(s[0].charAt(3));
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package verify.string;
+
+public class char_charAt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "老人与海";
+		System.out.println(s.length());
+		System.out.println(s.charAt(4));
+	}
+
+}

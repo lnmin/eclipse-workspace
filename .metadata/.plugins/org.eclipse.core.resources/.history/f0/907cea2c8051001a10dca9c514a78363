@@ -1,0 +1,11 @@
+package com.heima.¼òµ¥¹¤³§;
+
+public class Cat extends Animal {
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

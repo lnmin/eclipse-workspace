@@ -1,0 +1,22 @@
+package com.heima.reflect;
+
+import com.heima.bean.Person;
+
+public class Demo3_Constructor {
+
+	/**
+	 * @param args Class类的newInstange()方法是使用该类无参的构造函数创建对象，
+	 * 如果一个类没有无参的构造函数，就不能这样创建类，可以调用Class类的getConstructor(String.class,int.class)
+	 * 方法获取一个指定的构造函数然后再调用Constructor类的newInstance("",20)方法创建对象
+	 * @throws ClassNotFoundException 
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException 
+	 */
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		// TODO Auto-generated method stub
+		Class clazz = Class.forName("com.heima.bean.Person");
+		Person p = (Person) clazz.newInstance();
+		System.out.println(p);
+	}
+
+}

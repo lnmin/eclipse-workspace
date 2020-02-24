@@ -1,0 +1,21 @@
+package com.heima.枚举2;
+
+public class Demo2_Enum {
+
+	/**
+	 * @param args
+	 * int ordinal()
+	*  int compareTo(E o)
+	*  String name()
+	*  String toString()
+	*  <T> T valueOf(Class<T> type,String name)
+	*  values() 
+	*      此方法虽然在JDK文档中查找不到，但每个枚举类都具有该方法，它遍历枚举类的所有枚举值非常方便
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Week2 mon = Week2.MON;
+		System.out.println(mon.ordinal());
+	}
+
+}

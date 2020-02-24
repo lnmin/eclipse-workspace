@@ -1,0 +1,41 @@
+package com.heima.reflect;
+
+public class Demo2_Reflect {
+
+	/**
+	 * @param args
+	 * 榨汁机（Juicer） 榨汁的案例
+	 * 分别有水果(Fruit)苹果(Apple)香蕉(Banana) 桔子(Orange) 榨汁(squeeze)
+	 * 
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Juicer j = new Juicer();              //购买榨汁机
+		j.run(new Apple());
+		
+		j.run(new Orange());
+	}
+
+}
+
+class Apple{
+	public void squeeze() {
+		System.out.println("榨出一杯苹果汁");
+	}
+}
+
+class Orange{
+	public void squeeze() {
+		System.out.println("榨出一杯橘子汁儿");
+	}
+}
+
+class Juicer{
+	public void run(Apple a) {
+		a.squeeze();
+	}
+	
+	public void run(Orange o) {
+		o.squeeze();
+	}
+}

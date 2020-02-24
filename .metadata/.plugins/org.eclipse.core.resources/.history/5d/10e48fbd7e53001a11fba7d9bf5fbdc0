@@ -1,0 +1,16 @@
+package com.heima.¶¯Ì¬´úÀí;
+
+public class Tset {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		UserImp ui = new UserImp();
+		ui.add();
+		ui.delete();
+		
+	}
+
+}

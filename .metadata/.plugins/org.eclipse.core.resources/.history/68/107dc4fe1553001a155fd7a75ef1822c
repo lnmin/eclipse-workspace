@@ -1,0 +1,32 @@
+package com.heima.¶¯Ì¬´úÀí;
+
+import javax.script.Invocable;
+import javax.script.ScriptException;
+
+public class MyInvocationHandler implements Invocable {
+
+	@Override
+	public Object invokeMethod(Object thiz, String name, Object... args) throws ScriptException, NoSuchMethodException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object invokeFunction(String name, Object... args) throws ScriptException, NoSuchMethodException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> T getInterface(Class<T> clasz) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> T getInterface(Object thiz, Class<T> clasz) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

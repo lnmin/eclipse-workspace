@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+E:\study\Java_Study_Demo\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+505857947.index
+2002905392.index
+1778308957.index
+609591662.index
+515130439.index
+1117660946.index
+3707417265.index
+3684136616.index
+3844387972.index
+2895136318.index
+2350367176.index
+4178340160.index
+2383108566.index
+1173611275.index
+854905757.index
+2885517863.index
+899225476.index

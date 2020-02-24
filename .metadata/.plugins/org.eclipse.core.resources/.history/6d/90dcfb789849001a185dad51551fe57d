@@ -1,0 +1,24 @@
+package com.heima.otherio;
+
+import java.io.PrintStream;
+
+import com.heima.bean.Person;
+
+public class Demo5_PrintStream {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("aaa");
+		PrintStream ps = System.out;           //获取标准输出流
+		ps.println(97);                     //底层通过Integer.toString()将97转换成字符串并打印
+		ps.write(97);                       //查找码表，找到对应的a并打印
+		
+		Person p1 = new Person("张三", 23);
+		ps.println(p1);
+		ps.close();
+	}
+
+}

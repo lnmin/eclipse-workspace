@@ -1,0 +1,29 @@
+package com.heima.otherio;
+
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+
+
+
+
+public class Demo9_Data {
+
+	/**
+	 * @param args
+	 * 数据的输入输出流，因为
+	 * 
+	 */
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		DataOutputStream dos = new DataOutputStream(new FileOutputStream("h.txt"));
+		dos.writeInt(9987);
+		dos.writeInt(987);
+		dos.writeInt(997);
+		dos.writeInt(977);
+		
+		dos.close();
+	}
+
+}

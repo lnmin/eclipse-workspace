@@ -1,0 +1,20 @@
+package com.heima.test;
+
+public class Test2_UpdateServer {
+
+	/**
+	 * @param args
+	 * 
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//3，建立多线程服务器
+		//4，读取文件名
+		//5，判断文件是否存在，将结果发回客户端
+		//8，定义FileOutputStream，从网络读取数据，存储到本地
+		
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.heima.¼òµ¥¹¤³§;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Dog d = AnimalFactory.createDog();
+	//	System.out.println(d);
+		
+		Dog d = (Dog)AnimalFactory.createAnimal("dog");
+		d.eat();
+	}
+
+}

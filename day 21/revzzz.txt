@@ -1,0 +1,79 @@
+}
+
+	}
+		fw.close();         //Writer类中有一个 2k的小缓冲区，如果不关流，就会将内容写到缓冲区里，关流会将缓冲区内容刷新，再关闭。
+		fr.close();
+		
+		}
+			fw.write(c);
+		while((c = fr.read()) != -1) {
+		int c ;
+		
+		FileWriter fw = new FileWriter("zzz.txt");
+		FileReader fr = new FileReader("xxx.txt");
+	private static void demo1() throws FileNotFoundException, IOException {
+
+	}
+		fw.close();
+		fr.close();
+		
+		}
+			fw.write(c);
+		while((c = fr.read()) != -1) {
+		int c ;
+		
+		FileWriter fw = new FileWriter("copy.jpg");
+		FileReader fr = new FileReader("0101.jpg");
+//		*字符流不可以拷贝非纯文本的文件
+	private static void demo2() throws FileNotFoundException, IOException {
+
+	}
+		fw.close();
+		fr.close();
+		
+		}
+			fw.write(arr, 0 ,len);                      //将字符数组中的数据写道文件上
+		while((len = fr.read(arr)) != -1) {             //将文件上的数组读取到字符数组中
+		int len;
+		char[] arr = new char[1024];
+		
+		FileWriter fw = new FileWriter("yyy.txt");
+		FileReader fr = new FileReader("xxx.txt");
+	private static void demo3() throws FileNotFoundException, IOException {
+
+	}
+		bw.close();
+		br.close();
+		
+		}
+			bw.write(c);
+		while((c = br.read()) != -1) {
+		int c;
+		
+		BufferedWriter bw = new BufferedWriter(new FileWriter("zzz.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("xxx.txt"));
+		
+//		demo3();
+		
+//		demo2();
+		
+//		demo1();
+		// TODO Auto-generated method stub
+	public static void main(String[] args) throws IOException {
+	 */
+	 	*字符流不可以拷贝非纯文本的文件
+	 *
+	 * @throws IOException 
+	 * @param args
+	/**
+
+public class Demo3_Copy {
+
+import java.io.IOException;
+import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.FileNotFoundException;
+import java.io.BufferedWriter;
+import java.io.BufferedReader;
+
+李大家好！package com.heima.chario;

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void leijiahe()&apos; from &apos;com.stx.p4.Demo_p4.main()&apos; to &apos;com.stx.p4.Demo_p4&apos;&#x0D;&#x0A;- Original project: &apos;Ex_LiMin&apos;&#x0D;&#x0A;- Method name: &apos;leijiahe&apos;&#x0D;&#x0A;- Destination type: &apos;com.stx.p4.Demo_p4&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;leijiahe&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.stx.p4{Demo_p4.java" name="leijiahe" replace="false" selection="503 349" stamp="1580440666400" version="1.0" visibility="1"/>
+</session>

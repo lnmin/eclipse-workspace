@@ -1,0 +1,21 @@
+1581998590539	Rename type 'Demo2_Receive'
+1581998715416	Copy compilation unit
+1581998724091	Copy compilation unit
+1582012562040	Extract method 'init'
+1582014377956	Convert local variable 'tf' to field
+1582014390581	Convert local variable 'send' to field
+1582014395235	Convert local variable 'log' to field
+1582014399425	Convert local variable 'clear' to field
+1582014403361	Convert local variable 'shake' to field
+1582014416363	Convert local variable 'viewText' to field
+1582014420201	Convert local variable 'sendText' to field
+1582016838368	Convert local variable 'socket' to field
+1582017358100	Extract local variable 'str'
+1582017431212	Extract local variable 'str'
+1582079268710	Rename type 'Demo2_Sever'
+1582079278838	Copy compilation unit
+1582079286675	Copy compilation unit
+1582080392196	Extract method 'demo1'
+1582080662371	Rename type 'Test1'
+1582081653910	Rename type 'Test2_Server'
+1582084115302	Extract local variable 'is'

@@ -1,0 +1,18 @@
+package com.heima.test;
+
+public class Test2_UpdateClient {
+
+	/**
+	 * @param args
+	 * 客户端向服务器上传文件
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1,提示输入要上传的文件路径，验证路径是否存在以及是否是文件夹
+		//2，发送文件名到服务器
+		//6,接收结果，如果存在给予提示，程序直接退出
+		//7，如果不存在，定义FileInputStream读取文件，写出到网络
+		
+	}
+
+}

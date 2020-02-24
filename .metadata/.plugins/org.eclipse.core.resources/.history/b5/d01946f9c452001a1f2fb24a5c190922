@@ -1,0 +1,10 @@
+package com.heima.test;
+
+public class Test2_Server {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

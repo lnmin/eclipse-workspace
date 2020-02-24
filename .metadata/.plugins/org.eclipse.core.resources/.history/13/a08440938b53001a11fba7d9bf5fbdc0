@@ -1,0 +1,19 @@
+package com.heima.Ã¶¾Ù2;
+
+public class Demo1_Enum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		demo1();
+		
+		Week2 mon = Week2.MON;
+		System.out.println(mon);
+		
+	}
+
+	private static void demo1() {
+		Week mon = Week.Mon;
+		System.out.println(mon);
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.stx.p9;
+
+import java.util.Random;
+
+public class Demo_p9 {
+
+	/*
+	 * 系统自动产生一个随机数a，程序提示用户输入猜的数字b，
+	 * 用户输入后程序判断b与a 的大小并提示猜大了或猜小了，
+	 * 请用户重新猜。。。循环这个过程直到猜中数字
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Random r = new Random(1);
+		System.out.println(r);
+	}
+
+}
